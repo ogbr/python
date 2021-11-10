@@ -1,0 +1,6 @@
+login = input("Введите логин")
+print(login)
+password = input("Введите пароль")
+print(password)
+sum=float(input("Введите сумму к оплате"))
+print (f"Ваша сумма к оплате с комиссией {sum+0.1*sum:0.2f}")
